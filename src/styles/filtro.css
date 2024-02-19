@@ -1,0 +1,14 @@
+.filtro-input {
+    margin: 10px 0;
+    padding: 5px;
+    width: 60%;
+}
+
+.filtro-select {
+    margin: 10px 0px;
+    padding: 5px;
+    width: 45%;
+}
+.contenedor-filtro{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,22 @@
+/* NavBar.css */
+.custom-navbar {
+    display:flex;
+    justify-content: space-evenly;
+    font-weight: uppercase;
+    text-align:center;
+    background-color: #353333;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  
+  .custom-navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+  .custom-navbar a:hover {
+    color: #ff0000;
+  }
+  
+  

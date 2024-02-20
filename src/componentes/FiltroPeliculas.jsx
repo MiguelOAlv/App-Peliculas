@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import '../styles/filtro.css';
 
-const FiltroPeliculas = ({ setPeliculasFiltradas, agregarAFavoritos }) => {
+const FiltroPeliculas = ({ setPeliculasFiltradas }) => {
     const [peliculas, setPeliculas] = useState([]);
     const [generos, setGeneros] = useState([]);
     const [genero, setGenero] = useState('');

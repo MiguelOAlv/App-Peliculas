@@ -1,0 +1,8 @@
+h2{
+    color:red;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    height:200px;
+    margin-top:50px;
+}

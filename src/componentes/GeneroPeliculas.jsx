@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faStar } from '@fortawesome/free-solid-svg-icons';
-import { useContext, useEffect, useState } from 'react'; // Importar useState
+import { useContext, useState } from 'react'; // Importar useState
 import PeliculasContext from '../PeliculasContext';
 import FiltroPeliculas from './FiltroPeliculas';
 
@@ -10,7 +10,7 @@ const GeneroPeliculas = () => {
 
     return (
         <div className="container mt-3">
-        <FiltroPeliculas setPeliculasFiltradas={setPeliculasFiltradas} agregarAFavoritos={agregarAFavoritos} />
+        <FiltroPeliculas setPeliculasFiltradas={setPeliculasFiltradas} />
             <div className="row">
                 {peliculasFiltradas.length > 0 ? (
                     peliculasFiltradas.map((pelicula) => (

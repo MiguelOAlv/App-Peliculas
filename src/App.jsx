@@ -3,6 +3,7 @@ import NavBar from './componentes/NavBar';
 import GeneroPeliculas from './componentes/GeneroPeliculas';
 import MeGusta from './componentes/MeGusta';
 import Favoritos from './componentes/Favoritos';
+import Error from './componentes/Error';
 import { PeliculasProvider } from './PeliculasContext';
 import './styles/app.css';
 
@@ -16,6 +17,7 @@ const App = () => {
             <Route path="/" element={<GeneroPeliculas />} />
             <Route path="/megusta" element={<MeGusta />} />
             <Route path="/favoritos" element={<Favoritos />} />
+            <Route path="/*" element={<Error />} />
           </Routes>
         </div>
       </Router>
